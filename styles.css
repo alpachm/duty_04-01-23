@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 2rem;
+    text-align: center;
+
+    display: grid;
+    gap: 3rem;
+}
+
+.ejercicio__1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+
+    margin-top: 2rem;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+h2 i {
+    color: salmon;
+    font-size: 3rem;
+}
+
+.contenedor__2 h2 i {
+    color: blue;
+    font-size: 3rem;
+}
+
+table thead th:nth-child(1),
+.thcenter {
+    text-align: center;
+}
+
+table th {
+    text-align: left;
+    padding: .2rem;
+}
+
+table td {
+    padding: .2rem;
+}
+
+.list {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* ---------------------------------------- */
+
+.ejercicio__2 {
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: .5rem;
+}
+
+input,
+.button_submit {
+    width: 100%;
+    padding: .5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button_submit {
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ejercicio__2 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 2rem;
+}
+
+.btn_delete {
+    text-align: center;
+    cursor: pointer;
+    background: red;
+    color: white;
+}
+
+.id {
+    display: none;
+}
